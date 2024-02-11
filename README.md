@@ -15,21 +15,6 @@ In the phone world, there are two main ways people pay for services: postpaid (p
 With postpaid, if someone wants to leave, they usually tell the company, and you know they've left. But with prepaid, people can just stop using the service without saying anything. It's hard to know if they left for good or just temporarily stopped using it, like when someone travels abroad.
 Predicting who might stop using the service (churn) is more challenging for prepaid customers. This is a big deal in places like India and Southeast Asia where prepaid is common, compared to Europe and North America where postpaid is more popular. This project focuses on the Indian and Southeast Asian market.
 
-
-
-## Definitions of churn
-There are various ways to define churn, such as:
-Revenue-based churn: Customers who have not utilised any revenue-generating facilities such as mobile internet, outgoing calls, SMS etc. over a given period of time. One could also use aggregate metrics such as ‘customers who have generated less than INR 4 per month in total/average/median revenue’.
-The main shortcoming of this definition is that there are customers who only receive calls/SMSes from their wage-earning counterparts, i.e. they don’t generate revenue but use the services. For example, many users in rural areas only receive calls from their wage-earning siblings in urban areas.
-Usage-based churn: Customers who have not done any usage, either incoming or outgoing - in terms of calls, internet etc. over a period of time.
-A potential shortcoming of this definition is that when the customer has stopped using the services for a while, it may be too late to take any corrective actions to retain them. For e.g., if you define churn based on a ‘two-months zero usage’ period, predicting churn could be useless since by that time the customer would have already switched to another operator.
-In this project, we will use the usage-based definition to define churn.
-
-
-## High Value Churn
-In India and Southeast Asia, around 80% of the money phone companies make comes from the top 20% of customers, who are considered high-value customers. So, if we can stop these high-value customers from leaving, we can avoid losing a lot of money.
-In this project, we'll figure out who the high-value customers are based on a specific measure (explained later), and we'll only focus on predicting if these valuable customers might leave.
-
 ## Understanding the business objective and the data
 The dataset includes details about customers over four months: June, July, August, and September, labeled as 6, 7, 8, and 9. The main goal is to forecast whether customers will leave in the last month (September) by analyzing information from the first three months (June, July, August). Knowing how customers usually behave when they decide to leave will be useful for doing this task effectively.
 
