@@ -43,7 +43,6 @@ In this case, since you are working over a four-month window, the first two mont
 
 
 ## Based on the analysis, the strongest indicators of churn are as follows:
-
 1. Customers who churn exhibit significantly lower average monthly local incoming calls from fixed lines during the action period, by 1.27 standard deviations compared to non-churn customers, holding all other factors constant. This stands out as the most influential indicator of churn.
 
 2. Churning customers tend to have a lower number of recharges during the action period, showing a deviation of 1.20 standard deviations compared to non-churners, when controlling for other variables. This emerges as the second strongest predictor of churn.
@@ -54,9 +53,8 @@ In this case, since you are working over a four-month window, the first two mont
 
 
 
+
 ## Based on the identified indicators, the following recommendations are proposed for the telecom company:
-
-
 1. Focus on customers who exhibit significantly lower than average incoming calls from fixed lines, with a deviation of 1.27 standard deviations below the mean. These users are at the highest risk of churning and should be targeted for retention efforts.
 
 2. Pay close attention to customers who recharge fewer times during the eighth month, with a deviation of less than 1.2 standard deviations compared to the average. This group represents the second highest likelihood of churning and should be prioritized for retention strategies.
