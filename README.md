@@ -60,7 +60,6 @@ In this case, since you are working over a four-month window, the first two mont
 2. Pay close attention to customers who recharge fewer times during the eighth month, with a deviation of less than 1.2 standard deviations compared to the average. This group represents the second highest likelihood of churning and should be prioritized for retention strategies.
 
 3. Prioritize models with high sensitivity for predicting churn. Utilize the PCA + Logistic Regression model, which demonstrates an ROC score of 0.87 and a test sensitivity of 100%. This model is highly effective in identifying customers at risk of churn and can guide proactive retention measures.
-![image](https://github.com/sangideb/Telecom-Chum-case-Study/assets/157450757/df52ea07-8534-4815-abb7-1abfb7fa5ec9)
 
 
 
